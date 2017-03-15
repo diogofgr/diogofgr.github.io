@@ -1,3 +1,16 @@
-* {
-text-align: center;
+body{
+  background-color: black;
+}
+
+.banner{
+
+  height: 100vh;
+}
+
+.projects{
+  display:flex;
+}
+
+.project{
+  border-style: dashed;
 }
