@@ -1,16 +1,58 @@
 body{
   background-color: black;
+  color: #bbb;
 }
 
 .banner{
-
   height: 100vh;
 }
 
 .projects{
   display:flex;
+  flex-wrap: wrap;
+
 }
 
 .project{
   border-style: dashed;
+  text-shadow: 1px 1px 1px #666;
+  background-size: cover !important;
+  flex: 0 1 45%;
+  height: auto;
+  margin: 15px;
+  padding: 10px 30px;
+  /*position: relative;*/
+
+}
+
+#logo-external{
+  float: right;
+}
+
+.project img{
+  height: 80px;
+  margin: 35px 0px;
+  opacity: 0.5;
+}
+
+.project img:hover {
+  opacity: 1;
+}
+
+
+.bullshits{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bullshit{
+  border-style: dashed;
+  background-size: cover !important;
+  margin: 15px;
+  padding: 10px 30px;
+}
+
+#titan{
+  width :50%;
+  height: 250px;
 }
