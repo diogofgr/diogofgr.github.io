@@ -14,7 +14,7 @@ body{
 }
 
 .project{
-  border-style: dashed;
+  /*border-style: dashed;*/
   text-shadow: 1px 1px 1px #666;
   background-size: cover !important;
   flex: 0 1 45%;
@@ -46,7 +46,7 @@ body{
 }
 
 .bullshit{
-  border-style: dashed;
+  /*border-style: dashed;*/
   background-size: cover !important;
   margin: 15px;
   padding: 10px 30px;
