@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Diogo's Test Page</title>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
@@ -9,8 +10,10 @@
 	<body>
     <div class="wrapper">
       <div class="banner text-center" id="page-title">
-        <h1>If You're Looking For Diogo He's Not Here</h1>
-        <h2>This page belongs to Diogo Farias Rodrigues. He's not available right now, please try again later.</h2>
+        <div id="page-title">
+          <h1>If You're Looking For Diogo He's Not Here</h1>
+          <h3>This page belongs to Diogo Farias Rodrigues. He's not available right now, please try again later.</h3>
+        </div>
       </div>
     </div>
 
@@ -22,13 +25,14 @@
 
     <div class="wrapper">
       <div class="container" id="main-content">
-        <div class="container" id="welcome">
+        <div class="container text-center" id="welcome">
           <h2>Welcome.</h2>
-          <p>If you've gotten this far it means you were not fooled by the titles. You are clever, therefore you deserve to know my secrets. I don't really have any interesting secrets so just look at my fu****g page. Mi homepage es su homepage.</p>
+          <p>If you've gotten this far it means you were not fooled by the titles. You are clever, therefore you deserve to know my secrets. I don't really have any interesting secrets so just look at my fu****g page.</p>
+          <p>Mi homepage es su homepage.</p>
         </div>
         <div class="wrapper">
-          <div class="container" id="main-content">
-            <h2>Take a look at my projects</h2>
+          <div class="container text-center padded">
+            <h2>Take a look at my projects.</h2>
           </div>
         </div>
         <div class="projects">
@@ -63,14 +67,16 @@
           </div>
         </div>
 
-        <div class="bullshits">
-          <div class="bullshit">
-        		<h2>The Vision</h2>
-        		<p>Once a Mechanical Engineer, now I'm set to take on the world of the interwebs.<br>
-        		Powered by a strong will and an incommensurable focus, I am on a mission to become the<br>
-        		next Elon Musk by taking humans to Titan, one of Saturns's moons (take that, Elon!).<p>
+        <div class="wrapper">
+          <div class="container text-center padded">
+            <h2>The Vision.</h2>
+            <p>Once a Mechanical Engineer, now I'm set to take on the world of the interwebs.<br>
+            Powered by a strong will and an incommensurable focus, I am on a mission to become the<br>
+            next Elon Musk by taking humans to Titan, one of Saturns's moons (take that, Elon!).<p>
           </div>
+        </div>
 
+        <div class="bullshits">
           <div class="bullshit">
             <h2>How will I accomplish this? Well, I need lots of money!</h2>
             <h3>Steps to become a millionaire space entrepeneur:</h3>
@@ -96,14 +102,14 @@
     </div>
 
     <div class="wrapper">
-      <div class="container">
+      <div class="container text-center padded">
         <h3>What to get in touch?</h3>
-        <ul>
-          <li>Facebook</li>
-          <li>Instagram</li>
-          <li>LinkedIn</li>
-          <li>Github</li>
-        </ul>
+          <div class="list-inline" id="social-icons">
+          <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-github" aria-hidden="true"></i></a>
+        </div>
       </div>
     </div>
 	</body>

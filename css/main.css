@@ -3,8 +3,24 @@ body{
   color: #bbb;
 }
 
+.padded{
+  padding-top: 50px;
+  padding-bottom:20px;
+}
+
 .banner{
   height: 100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+#page-title{
+  margin: 0px 10px;
+}
+
+#welcome{
+  max-width: 500px;
 }
 
 .projects{
@@ -55,4 +71,17 @@ body{
 #titan{
   width :50%;
   height: 250px;
+}
+
+#social-icons{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#social-icons a{
+  font-size: 3.2em;
+  color: #bbb;
+
 }
