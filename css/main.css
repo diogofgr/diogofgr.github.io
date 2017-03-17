@@ -3,6 +3,15 @@ body{
   color: #bbb;
 }
 
+p{
+  font-size: 1.8em;
+}
+
+h2{
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
 .padded{
   padding-top: 50px;
   padding-bottom:20px;
@@ -59,6 +68,7 @@ body{
 
 
 .bullshits{
+  text-align: left;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -70,6 +80,9 @@ body{
   margin: 15px;
   padding: 10px 30px;
   flex: 1 1 auto;
+}
+.bullshit li{
+  font-size: 1.6em;
 }
 
 #titan{
